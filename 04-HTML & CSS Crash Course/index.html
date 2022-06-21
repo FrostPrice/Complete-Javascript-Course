@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Learning HTML & CSS</title>
+  </head>
+  <body>
+    <h1>JavaScript is fun, but so is HTML & CSS</h1>
+    <p class="first">
+      You can learn JavaScript without HTML and CSS, but for DOM manipulation
+      it's useful to have some basic ideas of HTML & CSS. You can learn more
+      about it
+      <a href="https://www.udemy.com/user/jonasschmedtmann/"> on Udemy</a>.
+    </p>
+
+    <h2>Another heading</h2>
+    <p class="second">Just another paragraph</p>
+    <img
+      id="course-image"
+      src="https://img-b.udemycdn.com/course/240x135/437398_46c3_9.jpg?secure=AjoHsJrqokQKcvHVVOBXzw%3D%3D%2C1604532567"
+    />
+
+    <form id="your-name">
+      <h2>Your name here</h2>
+      <p class="first">Please fill in this form :)</p>
+
+      <input type="text" placeholder="Your name" />
+      <button>OK!</button>
+    </form>
+  </body>
+</html>
+
+<!-- ///////////////////////////////////////////////////// -->
+<!-- Basic HTML Structure and Elements ! -->
+
+<!-- index.html is the name of the main file in the project -->
+<!-- HTML is used to describe the content of the page -->
+<!-- HTML tags have a oppening tag and an ending tag -->
+
+<!-- The Head is like the settings of the page -->
+
+<!-- The Body is what's visible in the page  -->
+
+<!-- VSCode create an entire HTML script by hitting ! -->
+
+<!-- ///////////////////////////////////////////////////// -->
+<!-- Attributes, Classes and IDs -->
+
+<!-- Attributes describe elements(tags) -->
+<!-- You can put elements inside one another -->
+<!-- You can put elements inside one another -->
+<!-- Inline elements are those that go alog with its parent element -->
+<!-- Block elements are those that creates a new line or block for itself, not being in the same line as another element -->
+<!-- You can put an image adress in the src of an image element -->
+<!-- Classes and ids are used to name elements, to be used later on the CSS or by getting them with JavaScript -->
+<!-- Classes can be used as many times as you want, but IDs have to be unique -->
+<!-- It's a better practice to use more Classes than IDs -->
+<!-- In CSS use - to separate words -->
+<!-- A Form element is better to identify what's inside the box -->
+<!-- Div is a generic box without meaning -->
+
+<!-- ///////////////////////////////////////////////////// -->
+<!-- Basic Styling with CSS -->
+
+<!-- CSS styles the elements -->
+<!-- You can select elements by Tag, by their Class names or Ids -->
+<!-- CSS is created in a external file, not on the HTML -->
+<!-- You need to link the HTML and the CSS, do that by using the Link element, and set the rel atribute to stylesheet -->
+<!-- It's normal that some styles properties set in a parent element pass to the child element as well -->
+<!-- To select Classes in the CSS file use . (Dot) and then the name of the Class. And with IDs is the same thing but with # (has) instead of the . (Dot) -->
+
+<!-- ///////////////////////////////////////////////////// -->
+<!-- Introduction to the CSS Box Model -->
+<!-- Every element on a web page is set like a rectangular box. And in this box there is: a width, height, padding, margin and border -->
+<!-- The Content is the text, image, etc. YOu can define the Content Height and Width -->
+<!-- Padding is the transparent area around the Content, but inside the box -->
+<!-- Border goes around the Padding and the Content -->
+<!-- Margin is the space between boxes, it's outside the box -->
+<!-- Fill area is an area that gets filled with a background property, it goes from the Content to the Border -->
+<!-- It's good to reset all properties on CSS before starting to style them (Gobal Reset) -->
+<!-- Use the * to select all elements on the page -->
+<!-- The Box-Sizing propertie sets how the width and height is calculated -->
+<!-- The Border_Box atribute sets tha padding and the border to be include in the height and width, meaning so that they will not be outside the width and height set -->
+<!-- Some Properties can be set on only one side of an Element, like on the top, left, right, or bottom -->
+<!-- You can select more than one Element per time, use , (comma) to select more Elements -->
+<!-- Select a child Element by simply writing the name of the Child ELement after the Parent Element, without the , (comma) -->
+<!-- By setting a height or width for an image, it will change the heigth and width proportionaly -->
